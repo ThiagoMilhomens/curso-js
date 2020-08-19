@@ -6,8 +6,9 @@
 // Case-sensitive
 // Não podemos redeclarar variáveis com let
 // NÃO UTILIZE VAR, UTILIZE LET.
+// Se não atribuir valor será undefined
 let nomeCliente = 'Luiz';
 nomeCliente = 'Otávio';
 
 
-console.log(nomeCliente);
+console.log(nomeCliente, 'nasceu em 1984');
